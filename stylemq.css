@@ -4,3 +4,68 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  background-image: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  /* font-size: 16px; */
+  color: aliceblue;
+  width: 1440px;
+}
+.maindiv {
+  padding: 70px;
+  display: flex;
+  width: 70%
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+#L2C {
+  flex: 50%;
+  align-items: center;
+}
+.verticaldiv {
+  font-size: 16px;
+  flex: 50%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* justify-content: center */
+}
+.table {
+  background-color: aliceblue ;
+  width: 80%;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.verticaldiv p {
+  /* text-align: center; */
+}
+input {
+  width: 80%;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+ }
+ .try{
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  width: 80%;
+ }
+ input[type=submit]{
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 8px;
+  color: aliceblue;
+ }
+ .ttt{
+  color: hsl(246, 25%, 77%);
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+ }
+ input[type=submit]:hover{
+  background-color: hsl(154, 59%, 70%);
+  cursor: pointer;
+ }
