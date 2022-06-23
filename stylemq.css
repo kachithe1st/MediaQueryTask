@@ -4,6 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+@import url(https://fonts.google.com/specimen/Poppins);
 body {
   background-image: url(bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
@@ -75,12 +76,14 @@ input {
   background-color: hsl(154, 59%, 70%);
   cursor: pointer;
  }
+ /* when i set max width to 375px for the media query, the changes seem to only take effect after it reduces to 374px */
+ /* when i set max width to 376px, the changes take effect from 376px so i use 376px so as not to miss out on the 375px change */
  @media screen and (max-width: 376px){
   .maindiv{
     display: flex;
     flex-direction: column;
     width: 30%
-    justify-content; center;
+    justify-content: center;
     height: 100vh;
     align-items: center;
     text-align: center;
