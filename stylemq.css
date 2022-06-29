@@ -46,6 +46,13 @@ h1{
   border-radius: 8px;
   margin-top: 10px;
 }
+input:required{
+  border: 1px solid  hsl(249, 10%, 26%);
+}
+input:focus{
+  border: 1px solid hsl(249, 10%, 26%);
+
+}
 
 input {
   width: 95%;
@@ -65,7 +72,7 @@ input {
   border-radius: 8px;
   color: aliceblue;
  }
- .ttt{
+ .terms{
   color: hsl(246, 25%, 77%);
   padding: 5px;
   text-align: center;
@@ -76,6 +83,16 @@ input {
   background-color: hsl(154, 59%, 70%);
   cursor: pointer;
  }
+ /* apparently the form inputs shows as invalid immediately the page is loaded */
+ input:invalid{
+  background-repeat: no-repeat;
+  background-image: url(icon-error.svg);
+  background-position-x: 95%;
+  background-position-y: 50%;
+  background-size: 6%;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
  /* when i set max width to 375px for the media query, the changes seem to only take effect after it reduces to 374px */
  /* when i set max width to 376px, the changes take effect from 376px so i use 376px so as not to miss out on the 375px change */
  @media screen and (max-width: 376px){
