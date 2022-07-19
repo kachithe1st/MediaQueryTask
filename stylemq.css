@@ -4,13 +4,13 @@
   padding: 0px;
   box-sizing: border-box;
 }
-@import url(https://fonts.google.com/specimen/Poppins);
 body {
   background-image: url(bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
   /* font-size: 16px; */
   color: aliceblue;
   width: 1440px;
+  font-family: "Poppins", sans-serif;
   }
 .maindiv {
   padding: 200px;
@@ -66,6 +66,9 @@ input {
   text-align: center;
   border-radius: 6px;
   width: 80%;
+ }
+ span{
+  color: hsl(246, 25%, 77%);;
  }
  input[type=submit]{
   background-color: hsl(154, 59%, 51%);
